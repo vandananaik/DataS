@@ -1,0 +1,77 @@
+{
+    "lab": {
+      "description": {
+            "id": "CS 201",
+            "name": "Data Structure",
+            "discipline": ["Computer Science"],
+            "status": "",
+            "type": "",
+            "integration_level": 0,
+            "server-side": true,
+            "developer":  [
+                {
+                    "contact": {
+                        "email": "vandnaik@gmail.com",
+                        "alternate_email": "",
+                        "mobile_number": "",
+                        "office_number": ""
+                    },
+                    "department": "CS",
+                    "institute": "Goa University",
+                    "name": "Vandana",
+                    "organization": "",
+                    "role": "Lab Developer",
+                    "title": "",
+                    "web": ""
+                }
+            ]
+        },
+        "build_requirements": {
+            "platform": {
+                "arch": "",
+                "build_steps": {
+                    "build": ["make -C ../src"],
+                    "configure": [],
+                    "post_build": [],
+                    "pre_build": [],
+                    "status": []
+                },
+                "installer": [],
+                "os": "ubuntu",
+                "osVersion": "12",
+                "service_pack": ""
+            }
+        },
+        "runtime_requirements": {
+            "platform": {
+                "arch": "",
+                "hosting": "",
+                "installer": ["sudo apt-get install -y php5 apache2"],
+                "lab_actions": {
+                    "backup": [],
+                    "clean": [],
+                    "init": [""],
+                    "pause": [],
+                    "publish": [],
+                    "restore": ["restore"],
+                    "resume": [],
+                    "shutdown": [""],
+                    "start": [""],
+                    "stats": [],
+                    "stop": []
+                },
+                "memory": {
+                    "max_required": "",
+                    "min_required": ""
+                },
+                "os": "ubuntu",
+                "osVersion": "12",
+                "servicepack": "",
+                "storage": {
+                    "min_required": ""
+                }
+            }
+        }
+    },
+    "template": "1.0"
+}
